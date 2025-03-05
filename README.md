@@ -23,36 +23,57 @@ Instalación
 Clona este repositorio en tu máquina local:
 
 bash
+
 Copy
-git clone https://github.com/tu-usuario/teclado-virtual-camara.git
+
+git clone https://github.com/emdraw/Virtual_Keybord.git
+
 cd teclado-virtual-camara
+
 Instala las dependencias necesarias:
 
 bash
+
 Copy
+
 pip install -r requirements.txt
+
 Si no tienes un archivo requirements.txt, puedes instalar las dependencias manualmente:
 
 bash
+
 Copy
+
 pip install opencv-python numpy pyautogui
+
 Uso
+
 Ejecuta el script principal:
 
 bash
+
 Copy
+
 python teclado_virtual.py
+
 Coloca tu mano frente a la cámara y utiliza los dedos para "presionar" las teclas en la interfaz gráfica.
 
 Presiona la tecla q para salir del programa.
 
 Estructura del proyecto
+
 Copy
+
 teclado-virtual-camara/
+
 ├── teclado_virtual.py   # Script principal
+
 ├── README.md            # Este archivo
+
 └── requirements.txt     # Dependencias del proyecto
+
 Contribuciones
+
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
 
 Haz un fork del repositorio.
